@@ -29,7 +29,8 @@
 	},
 	"scripts": {
 		"test": "mocha --require esm './test'",
-		"build": "webpack"
+		"build": "webpack",
+		"prepare": "npm run build"
 	},
 	"type": "commonjs",
 	"description": "Pure javascript implementation of BLAKE3",
