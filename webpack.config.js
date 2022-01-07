@@ -18,7 +18,7 @@ module.exports = {
     path: __dirname + "/dist",
     publicPath: "/",
     filename: "main.js",
-    library: "blake3-js",
-    libraryTarget: "commonjs-module"
+    // library: "blake3-js",
+    libraryTarget: "commonjs2"
   }
 };
